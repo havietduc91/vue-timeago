@@ -1,15 +1,14 @@
 {
-  "name": "vue-timeago",
-  "version": "5.0.0",
+  "name": "vue-timeago-01",
+  "version": "1.0.1",
   "productName": "Vue Timeago",
   "description": "A timeago filter for Vue.",
   "license": "MIT",
-  "repository": "egoist/vue-timeago",
-  "author": {
-    "name": "EGOIST",
-    "email": "0x142857@gmail.com",
-    "url": "https://github.com/egoist"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/havietduc91/vue-timeago.git"
   },
+  "author": "havietduc91 <havietduc91@gmail.com> (https://github.com/havietduc91)",
   "scripts": {
     "test": "xo && npm run build",
     "build": "bili",
@@ -84,5 +83,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/havietduc91/vue-timeago/issues"
+  },
+  "homepage": "https://github.com/havietduc91/vue-timeago#readme",
+  "directories": {
+    "example": "example"
   }
 }
