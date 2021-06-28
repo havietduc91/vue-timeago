@@ -5,9 +5,9 @@
 ## Install
 
 ```bash
-yarn add vue-timeago
+yarn add vue-timeago-01
 # or
-npm i vue-timeago
+npm i vue-timeago-01
 ```
 
 CDN: [UNPKG](https://unpkg.com/vue-timeago/dist/) | [jsDelivr](https://cdn.jsdelivr.net/npm/vue-timeago/dist/) (available as `window.VueTimeago`)
@@ -17,7 +17,7 @@ CDN: [UNPKG](https://unpkg.com/vue-timeago/dist/) | [jsDelivr](https://cdn.jsdel
 For usages on version 4, please check out [this branch](https://github.com/egoist/vue-timeago/tree/4).
 
 ```js
-import VueTimeago from 'vue-timeago'
+import VueTimeago from 'vue-timeago-01'
 
 Vue.use(VueTimeago, {
   name: 'Timeago', // Component name, `Timeago` by default
